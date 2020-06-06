@@ -35,7 +35,7 @@ void main(){
 			printf("\n");
 		}
 		printf("\n");
-		
+		printf("Vidas = %d \n", vidas);
 		gotoxy(x, y); printf("*");
 		int tecla;
 		tecla = getch();
@@ -67,6 +67,7 @@ void main(){
 		}
 		
 		if(laberinto[y][x] == 1){
+			printf("--Vida");
 			vidas--;
 		}
 		
